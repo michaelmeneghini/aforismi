@@ -12,7 +12,6 @@ body {
 h1 {
     color: #6D7781;
     font-family: 'Sofia', cursive;
-    font-size: 20px;
     font-weight: bold;
     font-size: 5.0em;
     text-align: center;
@@ -23,7 +22,6 @@ h1 {
 h2 {
     color: #6D7781;
     font-family: 'Sofia', cursive;
-    font-size: 15px;
     font-weight: bold;
     font-size: 3.6em;
     text-align: center;
@@ -33,7 +31,6 @@ h2 {
 h4 {
     color: #6D7781;
     font-family: 'Sofia', cursive;
-    font-size: 8px;
     font-weight: bold;
     font-size: 1.8em;
     text-align: center;
