@@ -81,7 +81,7 @@ label {
     border: 3px solid #6d7781;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background: #1FCE6D;
     border: 0;
     width: 350px;
@@ -93,7 +93,7 @@ input[type="submit"] {
     transition: background .3s ease-in-out;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background: #16aa56;
     animation-name: shake;
 }
