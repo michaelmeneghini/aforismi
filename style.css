@@ -12,9 +12,9 @@ body {
 h1 {
     color: #6D7781;
     font-family: 'Sofia', cursive;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 7.2em;
+    font-size: 5.0em;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -44,6 +44,7 @@ h4 {
 a {
     color: #435160;
     text-decoration: none;
+    text-align: center;
 }
 
 .login {
