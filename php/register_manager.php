@@ -24,7 +24,7 @@
 
     //registering user
     try{
-        $sql = "INSERT INTO users (email, first_name, last_name, password)
+        $sql = "INSERT INTO user (email, first_name, last_name, password)
                     VALUES ('$email', '$firstname', '$lastname', '$password')";
         $conn->exec($sql);
         echo("User registered successfully!"."<br>");
