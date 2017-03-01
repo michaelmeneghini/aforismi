@@ -28,8 +28,8 @@
         if($qResult->fetchColumn() == $password){
             //starting the session
             session_start();
-            $sql_firstname = $conn->query("SELECT first_name FROM users WHERE email = '$email'");
-            $sql_lastname =  $conn->query("SELECT last_name FROM users WHERE email = '$email'");
+            $sql_firstname = $conn->query("SELECT first_name FROM user WHERE email = '$email'");
+            $sql_lastname =  $conn->query("SELECT last_name FROM user WHERE email = '$email'");
             $fn = $sql_firstname->fetchColumn();
             $ln = $sql_lastname->fetchColumn();
 
