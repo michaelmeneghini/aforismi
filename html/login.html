@@ -1,20 +1,23 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
-
 <html>
+
 <head>
-    <title>Login page.</title>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-
 <body>
+<div class="login">
 
-<form action="../php/login_manager.php" method="post">
+    <h2><i>Login</i></h2>
+    <form action="../php/login_manager.php">
 
-    <input type="text" required autocomplete="off" name="email"/>
-    <input type="text" required autocomplete="off" name="password"/>
-    <input type="submit" value="Login">
+        <input name="email" placeholder="E-Mail Address" type="text" required/><br>
+        <input name="password" placeholder="Password" type="password" required/><br>
+        <input type="submit" value="Login!"/><br>
 
-</form>
 
+    </form>
+</div>
 </body>
 </html>
